@@ -71,7 +71,7 @@ resource "aws_route_table"  "private_route_1" {
 		nat_gateway_id = "${aws_nat_gateway.gw.id}"
 	}
 	tags = {
-                Name = "private route"
+                Name = "private_route_1"
         }
 }
 
@@ -82,7 +82,7 @@ resource "aws_route_table"  "private_route_2" {
                 nat_gateway_id = "${aws_nat_gateway.gw.id}"
         }
         tags = {
-                Name = "private route"
+                Name = "private_route_2"
         }
 }
 

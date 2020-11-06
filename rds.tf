@@ -24,7 +24,7 @@ resource "aws_db_instance" "rds_db" {
 	vpc_security_group_ids = [aws_security_group.db_allow_sec.id]
 	backup_retention_period = 30
 	availability_zone = "${var.availability_zone_names[2]}"
-	skip_final_snapshot = true
+	skip_final_snapshot = "true"
 }
 
 

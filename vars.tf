@@ -24,5 +24,5 @@ variable "availability_zone_names" {
   default = ["us-east-1a", "us-east-1b", "us-east-1c"]
 }
 
-variable "PASSWORD" {
-}
+#variable "PASSWORD" {
+#}
